@@ -28,7 +28,7 @@ jobs:
         
       - name: Change pass for RDP.
         env: 
-          ADMINPASSWORD: 26072003
+          ADMINPASSWORD: "@NN_hade26072003"
         run: net user runneradmin $Env:ADMINPASSWORD
         
       - name: Get Ngrok 
